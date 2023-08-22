@@ -1,0 +1,3 @@
+git+https://github.com/CederGroupHub/s4
+xgboost
+jupyter
