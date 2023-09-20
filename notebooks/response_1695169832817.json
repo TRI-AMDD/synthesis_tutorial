@@ -1,0 +1,1236 @@
+{
+  "data": [
+    {
+      "doi": "10.1016/j.ceramint.2015.03.150",
+      "paragraph_string": "Ceramic specimens with composition of [Bi1/2(Na0.82K0.18)1/2]1-xAxTiO3 (A=Li or La; x = 0.00-0.05), ...",
+      "synthesis_type": "solid-state",
+      "reaction_string": "0.25-0.25*x Bi2O3 + 0.045-0.045*x K2CO3 + 0.5*x Li2CO3 + 0.205-0.205*x Na2CO3 + 0.25*x O2 + 1 TiO2 == 1 (Bi1/2(Na0.82K0.18)1/2)1-xAxTiO3 + 0.25+0.25*x CO2; A = Li",
+      "reaction": {
+        "left_side": [
+          {
+            "amount": "0.5*x",
+            "material": "Li2CO3"
+          },
+          {
+            "amount": "0.25-0.25*x",
+            "material": "Bi2O3"
+          },
+          {
+            "amount": "0.205-0.205*x",
+            "material": "Na2CO3"
+          },
+          {
+            "amount": "0.045-0.045*x",
+            "material": "K2CO3"
+          },
+          {
+            "amount": "1",
+            "material": "TiO2"
+          },
+          {
+            "amount": "0.25*x",
+            "material": "O2"
+          }
+        ],
+        "right_side": [
+          {
+            "amount": "1",
+            "material": "(Bi1/2(Na0.82K0.18)1/2)1-xAxTiO3"
+          },
+          {
+            "amount": "0.25+0.25*x",
+            "material": "CO2"
+          }
+        ]
+      },
+      "target": {
+        "material_string": "[Bi1/2(Na0.82K0.18)1/2]1-xAxTiO3",
+        "material_formula": "(Bi1/2(Na0.82K0.18)1/2)1-xAxTiO3",
+        "material_name": "",
+        "phase": null,
+        "is_acronym": false,
+        "composition": [
+          {
+            "formula": "(Bi1/2(Na0.82K0.18)1/2)1-xAxTiO3",
+            "amount": "1",
+            "elements": {
+              "Na": "0.41-0.41*x",
+              "K": "0.09-0.09*x",
+              "Bi": "0.5-0.5*x",
+              "A": "x",
+              "Ti": "1",
+              "O": "3"
+            }
+          }
+        ],
+        "amounts_vars": {
+          "x": {
+            "values": [],
+            "min_value": null,
+            "max_value": null
+          }
+        },
+        "elements_vars": {
+          "A": [
+            "La",
+            "Li"
+          ]
+        },
+        "additives": [],
+        "oxygen_deficiency": "None"
+      },
+      "targets_formula": [
+        "K0.09 Na0.41 Ti1 Bi0.5 O3",
+        "K0.072 Na0.328 Li0.2 Ti1 Bi0.4 O3",
+        "K0.054 Na0.246 Li0.4 Ti1 Bi0.3 O3",
+        "K0.036 Na0.164 Li0.6 Ti1 Bi0.2 O3",
+        "K0.018 Na0.082 Li0.8 Ti1 Bi0.1 O3",
+        "Li1 Ti1 O3"
+      ],
+      "targets_formula_s": [
+        "K0.09Na0.41Ti1Bi0.5O3",
+        "K0.072Na0.328Li0.2Ti1Bi0.4O3",
+        "K0.054Na0.246Li0.4Ti1Bi0.3O3",
+        "K0.036Na0.164Li0.6Ti1Bi0.2O3",
+        "K0.018Na0.082Li0.8Ti1Bi0.1O3",
+        "LiTiO3"
+      ],
+      "precursors_formula_s": [
+        "Li2CO3",
+        "Bi2O3",
+        "Na2CO3",
+        "K2CO3",
+        "TiO2"
+      ],
+      "precursors": [
+        {
+          "material_string": "Li2CO3",
+          "material_formula": "Li2CO3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "Li2CO3",
+              "amount": "1",
+              "elements": {
+                "Li": "2",
+                "C": "1",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "Bi2O3",
+          "material_formula": "Bi2O3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "Bi2O3",
+              "amount": "1",
+              "elements": {
+                "Bi": "2",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "Na2CO3",
+          "material_formula": "Na2CO3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "Na2CO3",
+              "amount": "1",
+              "elements": {
+                "Na": "2",
+                "C": "1",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "K2CO3",
+          "material_formula": "K2CO3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "K2CO3",
+              "amount": "1",
+              "elements": {
+                "K": "2",
+                "C": "1",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "TiO2",
+          "material_formula": "TiO2",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "TiO2",
+              "amount": "1",
+              "elements": {
+                "Ti": "1",
+                "O": "2"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        }
+      ],
+      "operations": [
+        {
+          "type": "StartingSynthesis",
+          "token": "synthesized",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "DryingOperation",
+          "token": "dried",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 100,
+                "max_value": 100,
+                "values": [
+                  100
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [
+              {
+                "min_value": 24,
+                "max_value": 24,
+                "values": [
+                  24
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "MixingOperation",
+          "token": "mixed",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": "zirconia",
+            "mixing_media": "ethanol"
+          }
+        },
+        {
+          "type": "DryingOperation",
+          "token": "dried",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 80,
+                "max_value": 80,
+                "values": [
+                  80
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [
+              {
+                "min_value": 24,
+                "max_value": 24,
+                "values": [
+                  24
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "calcined",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 850,
+                "max_value": 850,
+                "values": [
+                  850
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [
+              {
+                "min_value": 2,
+                "max_value": 2,
+                "values": [
+                  2
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [
+              "alumina"
+            ],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "MixingOperation",
+          "token": "mixed",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": "polyvinyl alcohol",
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "ShapingOperation",
+          "token": "pressed",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "sintered",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1175,
+                "max_value": 1175,
+                "values": [
+                  1175
+                ],
+                "units": "°C"
+              },
+              {
+                "min_value": 1100,
+                "max_value": 1100,
+                "values": [
+                  1100
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [],
+            "heating_atmosphere": [
+              "alumina"
+            ],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/s10854-017-8291-6",
+      "paragraph_string": "(Ba, Sr)(1-x)(Bi, Li)xTiO3 compositions have been synthesized using modified solid state reaction ...",
+      "synthesis_type": "solid-state",
+      "reaction_string": "0.5*x Li2CO3 + 0.5-0.25*x O2 + 1 TiO2 == 1 (Li)xTiO3 + 0.5*x CO2",
+      "reaction": {
+        "left_side": [
+          {
+            "amount": "0.5*x",
+            "material": "Li2CO3"
+          },
+          {
+            "amount": "1",
+            "material": "TiO2"
+          },
+          {
+            "amount": "0.5-0.25*x",
+            "material": "O2"
+          }
+        ],
+        "right_side": [
+          {
+            "amount": "1",
+            "material": "(Li)xTiO3"
+          },
+          {
+            "amount": "0.5*x",
+            "material": "CO2"
+          }
+        ]
+      },
+      "target": {
+        "material_string": "Li)xTiO3",
+        "material_formula": "(Li)xTiO3",
+        "material_name": "",
+        "phase": null,
+        "is_acronym": false,
+        "composition": [
+          {
+            "formula": "(Li)xTiO3",
+            "amount": "1",
+            "elements": {
+              "Li": "x",
+              "Ti": "1",
+              "O": "3"
+            }
+          }
+        ],
+        "amounts_vars": {
+          "x": {
+            "values": [],
+            "min_value": null,
+            "max_value": null
+          }
+        },
+        "elements_vars": {},
+        "additives": [],
+        "oxygen_deficiency": "None"
+      },
+      "targets_formula": [
+        "Ti1 O3",
+        "Li0.2 Ti1 O3",
+        "Li0.4 Ti1 O3",
+        "Li0.6 Ti1 O3",
+        "Li0.8 Ti1 O3",
+        "Li1 Ti1 O3"
+      ],
+      "targets_formula_s": [
+        "TiO3",
+        "Li0.2Ti1O3",
+        "Li0.4Ti1O3",
+        "Li0.6Ti1O3",
+        "Li0.8Ti1O3",
+        "LiTiO3"
+      ],
+      "precursors_formula_s": [
+        "Li2CO3",
+        "TiO2"
+      ],
+      "precursors": [
+        {
+          "material_string": "Li2CO3",
+          "material_formula": "Li2CO3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "Li2CO3",
+              "amount": "1",
+              "elements": {
+                "Li": "2",
+                "C": "1",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "TiO2",
+          "material_formula": "TiO2",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "TiO2",
+              "amount": "1",
+              "elements": {
+                "Ti": "1",
+                "O": "2"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        }
+      ],
+      "operations": [
+        {
+          "type": "StartingSynthesis",
+          "token": "synthesized",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "calcined",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "MixingOperation",
+          "token": "milled",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [
+              {
+                "min_value": 4,
+                "max_value": 4,
+                "values": [
+                  4
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "heated",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 120,
+                "max_value": 120,
+                "values": [
+                  120
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "MixingOperation",
+          "token": "mixed",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "ShapingOperation",
+          "token": "compacted",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/S0167-2738(01)00884-0",
+      "paragraph_string": "A solid-state reaction procedure was adopted to prepare the perovskite lanthanum lithium titanate ...",
+      "synthesis_type": "solid-state",
+      "reaction_string": "0.5-0.5*x La2O3 + 0.5*x Li2CO3 + 1 TiO2 == 1 La1-xLixTiO3 + 0.5*x CO2 + 0.25-0.5*x O2",
+      "reaction": {
+        "left_side": [
+          {
+            "amount": "1",
+            "material": "TiO2"
+          },
+          {
+            "amount": "0.5*x",
+            "material": "Li2CO3"
+          },
+          {
+            "amount": "0.5-0.5*x",
+            "material": "La2O3"
+          }
+        ],
+        "right_side": [
+          {
+            "amount": "1",
+            "material": "La1-xLixTiO3"
+          },
+          {
+            "amount": "0.5*x",
+            "material": "CO2"
+          },
+          {
+            "amount": "0.25-0.5*x",
+            "material": "O2"
+          }
+        ]
+      },
+      "target": {
+        "material_string": "lanthanum lithium titanate",
+        "material_formula": "La1-xLixTiO3",
+        "material_name": "lanthanum lithium titanate",
+        "phase": null,
+        "is_acronym": false,
+        "composition": [
+          {
+            "formula": "La1-xLixTiO3",
+            "amount": "1",
+            "elements": {
+              "La": "1-x",
+              "Li": "x",
+              "Ti": "1",
+              "O": "3"
+            }
+          }
+        ],
+        "amounts_vars": {
+          "x": {
+            "values": [],
+            "min_value": null,
+            "max_value": null
+          }
+        },
+        "elements_vars": {},
+        "additives": [],
+        "oxygen_deficiency": "None"
+      },
+      "targets_formula": [
+        "La1 Ti1 O3",
+        "Li0.2 La0.8 Ti1 O3",
+        "Li0.4 La0.6 Ti1 O3",
+        "Li0.6 La0.4 Ti1 O3",
+        "Li0.8 La0.2 Ti1 O3",
+        "Li1 Ti1 O3"
+      ],
+      "targets_formula_s": [
+        "LaTiO3",
+        "Li0.2La0.8Ti1O3",
+        "Li0.4La0.6Ti1O3",
+        "Li0.6La0.4Ti1O3",
+        "Li0.8La0.2Ti1O3",
+        "LiTiO3"
+      ],
+      "precursors_formula_s": [
+        "TiO2",
+        "Li2CO3",
+        "La2O3"
+      ],
+      "precursors": [
+        {
+          "material_string": "TiO2",
+          "material_formula": "TiO2",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "TiO2",
+              "amount": "1",
+              "elements": {
+                "Ti": "1",
+                "O": "2"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "Li2CO3",
+          "material_formula": "Li2CO3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "Li2CO3",
+              "amount": "1",
+              "elements": {
+                "Li": "2",
+                "C": "1",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "La2O3",
+          "material_formula": "La2O3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "La2O3",
+              "amount": "1",
+              "elements": {
+                "La": "2",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        }
+      ],
+      "operations": [
+        {
+          "type": "MixingOperation",
+          "token": "mixed",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": "ethanol",
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "MixingOperation",
+          "token": "milled",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [
+              {
+                "min_value": 15,
+                "max_value": 15,
+                "values": [
+                  15
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "calcined",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1100,
+                "max_value": 1200,
+                "values": [
+                  1200,
+                  1100
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "DryingOperation",
+          "token": "drying",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "MixingOperation",
+          "token": "grinding",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "calcined",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1100,
+                "max_value": 1100,
+                "values": [
+                  1100
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "calcined",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1200,
+                "max_value": 1200,
+                "values": [
+                  1200
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [
+              {
+                "min_value": 12,
+                "max_value": 12,
+                "values": [
+                  12
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "ShapingOperation",
+          "token": "pressed",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "sintered",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1200,
+                "max_value": 1200,
+                "values": [
+                  1200
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [
+              {
+                "min_value": 12,
+                "max_value": 12,
+                "values": [
+                  12
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [
+              "air"
+            ],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/s0167-2738(01)00884-0",
+      "paragraph_string": "A solid-state reaction procedure was adopted to prepare the perovskite lanthanum lithium titanate ...",
+      "synthesis_type": "solid-state",
+      "reaction_string": "0.5-0.5*x La2O3 + 0.5*x Li2CO3 + 1 TiO2 == 1 La1-xLixTiO3 + 0.5*x CO2 + 0.25-0.5*x O2",
+      "reaction": {
+        "left_side": [
+          {
+            "amount": "1",
+            "material": "TiO2"
+          },
+          {
+            "amount": "0.5*x",
+            "material": "Li2CO3"
+          },
+          {
+            "amount": "0.5-0.5*x",
+            "material": "La2O3"
+          }
+        ],
+        "right_side": [
+          {
+            "amount": "1",
+            "material": "La1-xLixTiO3"
+          },
+          {
+            "amount": "0.5*x",
+            "material": "CO2"
+          },
+          {
+            "amount": "0.25-0.5*x",
+            "material": "O2"
+          }
+        ]
+      },
+      "target": {
+        "material_string": "lanthanum lithium titanate",
+        "material_formula": "La1-xLixTiO3",
+        "material_name": "lanthanum lithium titanate",
+        "phase": null,
+        "is_acronym": false,
+        "composition": [
+          {
+            "formula": "La1-xLixTiO3",
+            "amount": "1",
+            "elements": {
+              "La": "1-x",
+              "Li": "x",
+              "Ti": "1",
+              "O": "3"
+            }
+          }
+        ],
+        "amounts_vars": {
+          "x": {
+            "values": [],
+            "min_value": null,
+            "max_value": null
+          }
+        },
+        "elements_vars": {},
+        "additives": [],
+        "oxygen_deficiency": "None"
+      },
+      "targets_formula": [
+        "La1 Ti1 O3",
+        "Li0.2 La0.8 Ti1 O3",
+        "Li0.4 La0.6 Ti1 O3",
+        "Li0.6 La0.4 Ti1 O3",
+        "Li0.8 La0.2 Ti1 O3",
+        "Li1 Ti1 O3"
+      ],
+      "targets_formula_s": [
+        "LaTiO3",
+        "Li0.2La0.8Ti1O3",
+        "Li0.4La0.6Ti1O3",
+        "Li0.6La0.4Ti1O3",
+        "Li0.8La0.2Ti1O3",
+        "LiTiO3"
+      ],
+      "precursors_formula_s": [
+        "TiO2",
+        "Li2CO3",
+        "La2O3"
+      ],
+      "precursors": [
+        {
+          "material_string": "TiO2",
+          "material_formula": "TiO2",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "TiO2",
+              "amount": "1",
+              "elements": {
+                "Ti": "1",
+                "O": "2"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "Li2CO3",
+          "material_formula": "Li2CO3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "Li2CO3",
+              "amount": "1",
+              "elements": {
+                "Li": "2",
+                "C": "1",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        },
+        {
+          "material_string": "La2O3",
+          "material_formula": "La2O3",
+          "material_name": "",
+          "phase": null,
+          "is_acronym": false,
+          "composition": [
+            {
+              "formula": "La2O3",
+              "amount": "1",
+              "elements": {
+                "La": "2",
+                "O": "3"
+              }
+            }
+          ],
+          "amounts_vars": {},
+          "elements_vars": {},
+          "additives": [],
+          "oxygen_deficiency": "None"
+        }
+      ],
+      "operations": [
+        {
+          "type": "MixingOperation",
+          "token": "mixed",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": "ethanol",
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "MixingOperation",
+          "token": "milled",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [
+              {
+                "min_value": 15,
+                "max_value": 15,
+                "values": [
+                  15
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "calcined",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1100,
+                "max_value": 1200,
+                "values": [
+                  1200,
+                  1100
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "DryingOperation",
+          "token": "drying",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "MixingOperation",
+          "token": "grinding",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "calcined",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1100,
+                "max_value": 1100,
+                "values": [
+                  1100
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "calcined",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1200,
+                "max_value": 1200,
+                "values": [
+                  1200
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [
+              {
+                "min_value": 12,
+                "max_value": 12,
+                "values": [
+                  12
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "ShapingOperation",
+          "token": "pressed",
+          "conditions": {
+            "heating_temperature": [],
+            "heating_time": [],
+            "heating_atmosphere": [],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        },
+        {
+          "type": "HeatingOperation",
+          "token": "sintered",
+          "conditions": {
+            "heating_temperature": [
+              {
+                "min_value": 1200,
+                "max_value": 1200,
+                "values": [
+                  1200
+                ],
+                "units": "°C"
+              }
+            ],
+            "heating_time": [
+              {
+                "min_value": 12,
+                "max_value": 12,
+                "values": [
+                  12
+                ],
+                "units": "h"
+              }
+            ],
+            "heating_atmosphere": [
+              "air"
+            ],
+            "mixing_device": null,
+            "mixing_media": null
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "api_version": "0.56.0",
+    "time_stamp": "2023-09-20T00:31:28.727128",
+    "total_doc": 4
+  }
+}
