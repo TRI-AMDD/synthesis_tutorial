@@ -1,37 +1,18 @@
 from monty.serialization import loadfn
-response = loadfn("response_1695169832817.json")
 from s4.ml.features import wp_mp, wp_mp_median
+from pymatgen.core import Composition
+import numpy
+
+response = loadfn("response_1695169832817.json")
 
 
-def thermonize_reactions(reactions, using_mp=True, using_freed=True, processes=None):
-    # Remove all oxygen del_O
-    for k, d in reactions.items():
-        if d['target'].get('thermo') is not None:
-            d['target']['thermo'] = list(filter(
-                lambda x: not (x['amts_vars'] or {}).get('del_O', 0.0) > 0.0,
-                d['target']['thermo']
-            ))
-
-    if using_mp:
-        reaction_data_mp = from_reactions_multiprocessing(
-            reactions, list(reactions), processes=processes,
-            override_fugacity={}, return_errors=True)
-        print('Thermonized', len(reaction_data_mp), 'reactions using MP data.')
-    else:
-        reaction_data_mp = None
-
-    if using_freed:
-        reaction_data_freed = from_reactions(
-            reactions, list(reactions), #processes=processes,
-            override_fugacity={}, use_database='freed')
-        print('Thermonized', len(reaction_data_mp), 'reactions using FREED data.')
-    else:
-        reaction_data_freed = None
-
-    return reaction_data_mp, reaction_data_freed
-
-
-def get_melt_features(precursor_list):
+def get_melt_features(precursors):
+    """
+    Gets melting point features
+    
+    Args:
+        precursors (list): list of precursors
+    """
     precursors = tuple(sorted(precursors))
     melting_points = [wp_mp.get(Composition(x), wp_mp_median) for x in precursors]
     feature_dict = {
@@ -42,12 +23,5 @@ def get_melt_features(precursor_list):
     return feature_dict
 
 
-
-
-data = {f"key{n}": value for n, value in enumerate(response['data'])} 
-for key in data.keys():
-    data[key]['target'].update({"thermo": [{"formula": "LiTiO3", "interpolation": "LiTiO3"}]})
-    data[key]['target']['thermo'][0].update(data[key]['target'])
-
-
-output = thermonize_reactions(data)
+# For LiTiO3
+print(get_melt_features(["Li2O2", "TiO2"]))
